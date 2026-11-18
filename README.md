@@ -19,10 +19,11 @@ terraform plan
 
 # Step 3: Apply the changes required to reach the desired state of the configuration
 terraform apply
-
+#After that run the commnd
+kubectl get svc -n argocd(for checking the service is running or not)
 # Step 4: Retrieve the ArgoCD default admin(username) password and decode it using Base64 extension
 kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}"
-
+#After this above coomand open one text file in vscode past that and right click base 64->base64decode once decode is happen that is ur Argocd password. for me tvADtDex2HRupoMp password for argo cd.admin is user
 # Step 5: Destroy all resources created by the Terraform configuration
 terraform destroy
 ```
