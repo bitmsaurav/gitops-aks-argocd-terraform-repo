@@ -1,4 +1,4 @@
-# Deploying ArgoCD on Azure Kubernetes Service (AKS) using Terraform By Raghu The Security Expert
+# Deploying ArgoCD on Azure Kubernetes Service (AKS) using Terraform By Saurav kunal DevopesExpert
 
 ## Introduction
 This guide provides step-by-step instructions to deploy ArgoCD on AKS using Terraform, facilitating a GitOps workflow on Azure.
